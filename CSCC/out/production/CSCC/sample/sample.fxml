@@ -1,0 +1,24 @@
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<GridPane fx:controller="sample.Controller"
+          xmlns:fx="http://javafx.com/fxml">
+    <columnConstraints>
+        <ColumnConstraints percentWidth="100" halignment="CENTER"/>
+        <ColumnConstraints percentWidth="100" halignment="CENTER"/>
+        <ColumnConstraints percentWidth="100" halignment="CENTER"/>
+        <ColumnConstraints percentWidth="100" halignment="CENTER"/>
+        <ColumnConstraints percentWidth="100" halignment="CENTER"/>
+        <ColumnConstraints percentWidth="100" halignment="CENTER"/>
+    </columnConstraints>
+    <Label text="区域" GridPane.columnIndex="0" GridPane.rowIndex="0"/>
+    <ChoiceBox GridPane.columnIndex="1" GridPane.rowIndex="0" GridPane.hgrow="ALWAYS" GridPane.valignment="CENTER">
+    </ChoiceBox>
+
+    <Label text="开始时间" GridPane.columnIndex="2" GridPane.rowIndex="0"/>
+    <ChoiceBox GridPane.columnIndex="3" GridPane.rowIndex="0" GridPane.hgrow="ALWAYS">
+    </ChoiceBox>
+
+    <Label text="时长" GridPane.columnIndex="4" GridPane.rowIndex="0"/>
+    <ChoiceBox GridPane.columnIndex="5" GridPane.rowIndex="0" GridPane.hgrow="ALWAYS">
+    </ChoiceBox>
+</GridPane>

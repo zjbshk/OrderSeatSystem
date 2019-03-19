@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="CSC">
+    <output-path>$PROJECT_DIR$/out/artifacts/CSC</output-path>
+    <root id="archive" name="CSC.jar">
+      <element id="module-output" name="mybatis" />
+      <element id="extracted-dir" path="E:/jdk1.8.0_172/gson-2.8.5.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

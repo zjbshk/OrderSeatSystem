@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="SeatSystem:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/SeatSystem_jar</output-path>
+    <root id="archive" name="SeatSystem.jar">
+      <element id="module-output" name="SeatSystem" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/CSC.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/jcommander-1.72.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
